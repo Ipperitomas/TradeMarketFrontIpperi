@@ -12,6 +12,10 @@ import inicioaap from './components/inicioaap.vue';
 import home from './components/home.vue';
 import head_tipp from './components/head_tipp.vue';
 
+
+
+
+
 export default {
   name: 'App',
   components: {
