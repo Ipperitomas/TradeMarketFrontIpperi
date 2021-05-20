@@ -1,6 +1,5 @@
 <template>
   <div id="app" style="margin: left 250px;">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <head_tipp/>
     <home/>
     <inicioaap name_user="Tomas Ipperi" img_logo="logo" project_name="Tipp Market"/>
