@@ -1,17 +1,22 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" style="margin: left 250px;">
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <head_tipp/>
+    <home/>
+    <inicioaap name_user="Tomas Ipperi" img_logo="logo" project_name="Tipp Market"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue';
+import inicioaap from './components/inicioaap.vue';
+import home from './components/home.vue';
+import head_tipp from './components/head_tipp.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    head_tipp,inicioaap,home
   }
 }
 </script>
@@ -23,6 +28,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
